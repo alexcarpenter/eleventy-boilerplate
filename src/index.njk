@@ -1,0 +1,19 @@
+---
+title: Homepage
+permalink: /index.html
+---
+{% extends 'layouts/default.njk' %}
+{% from 'components/card.njk' import card %}
+
+{% block main %}
+  <h1>{{ title }}</h1>
+
+  {{ card({
+    thumbnail: {
+      url: 'http://placehold.it/300x200',
+      title: 'Placehold.it Image'
+    },
+    title: 'Sample Card Title',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, amet?'
+  }) }}
+{% endblock %}

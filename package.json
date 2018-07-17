@@ -1,0 +1,17 @@
+{
+  "name": "eleventy-boilerplate",
+  "version": "1.0.0",
+  "description": "An opinionated boilerplate for new projects built with Eleventy.",
+  "scripts": {
+    "build": "npx eleventy --config=config/eleventy.config.js --quiet",
+    "serve": "npx eleventy --config=config/eleventy.config.js --serve",
+    "clean": "rm -rf www"
+  },
+  "author": "Alex Carpenter",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.5.0",
+    "clean-css": "^4.1.11",
+    "uglify-js": "^3.4.5"
+  }
+}
