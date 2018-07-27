@@ -5,15 +5,15 @@
 ## Installation
 
 ```sh
-$ git clone git@github.com:alexcarpenter/eleventy-boilerplate.git
-$ npm install
+git clone git@github.com:alexcarpenter/eleventy-boilerplate.git
+npm install
 ```
 
 ## Commands
 
 ```sh
-$ npm run serve   Start a development server and start developing
-$ npm run build   Build files for production
+npm run serve   Start a development server and start developing
+npm run build   Build files for production
 ```
 
 ## License
