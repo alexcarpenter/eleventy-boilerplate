@@ -4,8 +4,7 @@
   "description": "An opinionated boilerplate for new projects built with Eleventy.",
   "scripts": {
     "build": "npx eleventy --config=config/eleventy.config.js --quiet",
-    "serve": "npx eleventy --config=config/eleventy.config.js --serve",
-    "clean": "rm -rf www"
+    "serve": "npx eleventy --config=config/eleventy.config.js --serve"
   },
   "author": "Alex Carpenter",
   "license": "MIT",
