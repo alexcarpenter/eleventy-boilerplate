@@ -1,0 +1,7 @@
+<nav class="c-nav">
+  <ul>
+    {% for item in site.nav %}
+    <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

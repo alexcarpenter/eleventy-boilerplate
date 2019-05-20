@@ -1,0 +1,10 @@
+{
+  "title": "Site Title",
+  "nav": [{
+    "name": "Home",
+    "url": "/"
+  }, {
+    "name": "Posts",
+    "url": "/posts/"
+  }]
+}

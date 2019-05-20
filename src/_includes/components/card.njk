@@ -1,9 +1,0 @@
-{% macro card(params) %}
-  <div class="c-card">
-    {% if params.thumbnail %}
-      <img class="c-card__thumbnail" src="{{ params.thumbnail.url }}" alt="{{ params.thumbnail.title }}">
-    {% endif %}
-    <h2 class="c-card__title">{{ params.title }}</h2>
-    <p class="c-card__description">{{ params.description }}</p>
-  </div>
-{% endmacro %}
