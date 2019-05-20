@@ -8,9 +8,9 @@
 - Templating uses [Nunjucks](https://mozilla.github.io/nunjucks/).
   - Reusable components are built using [shortcodes](https://www.11ty.io/docs/shortcodes/).
 - Styles are written in vanilla CSS and inlined for performance. (Note: it is your responsibility to autoprefix the CSS as needed).
-  - The main CSS file can be found at `src/_includes/app.css`.
+  - The main CSS file can be found at `_includes/app.css`.
 - Javascript is minified and inlined for performance. (Note: write browser compatible JS).
-  - The main JS file can be found at `src/_includes/app.js`.
+  - The main JS file can be found at `_includes/app.js`.
 
 ## Installation
 
