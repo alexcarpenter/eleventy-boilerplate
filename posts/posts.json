@@ -1,4 +1,4 @@
 {
   "layout": "layouts/post.njk",
-  "permalink": "posts/{{ page.fileSlug }}.html"
+  "permalink": "posts/{{ page.fileSlug }}/index.html"
 }

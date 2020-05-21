@@ -15,5 +15,7 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob('**/posts/*.md').reverse()
   })
 
-  return {}
+  return {
+    markdownTemplateEngine: 'njk',
+  }
 }
